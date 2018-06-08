@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "pgmoon-mashape"
-version = "1.7.0-1"
+version = "2.0.0-1"
 
 -- LuaDist source
 source = {
-  tag = "1.7.0-1",
+  tag = "2.0.0-1",
   url = "git://github.com/LuaDist-testing/pgmoon-mashape.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/Mashape/pgmoon.git",
---   tag = "1.7.0"
+--   tag = "2.0.0"
 -- }
 
 description = {
@@ -31,10 +31,10 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["pgmoon"] = "pgmoon/init.lua",
-    ["pgmoon.arrays"] = "pgmoon/arrays.lua",
-    ["pgmoon.crypto"] = "pgmoon/crypto.lua",
-    ["pgmoon.json"] = "pgmoon/json.lua",
-    ["pgmoon.socket"] = "pgmoon/socket.lua",
+    ["pgmoon-mashape"] = "pgmoon-mashape/init.lua",
+    ["pgmoon-mashape.arrays"] = "pgmoon-mashape/arrays.lua",
+    ["pgmoon-mashape.crypto"] = "pgmoon-mashape/crypto.lua",
+    ["pgmoon-mashape.json"] = "pgmoon-mashape/json.lua",
+    ["pgmoon-mashape.socket"] = "pgmoon-mashape/socket.lua",
   },
 }
